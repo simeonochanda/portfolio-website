@@ -148,6 +148,7 @@ html {
 <body>
 
 <section id="about" class="about-section">
+  <body id="home">
   <div class="container">
     <h2>About Me</h2>
     <img src="images/about/profile photo.jpg" alt="Simeon Ochanda - Data Analyst">
@@ -214,16 +215,20 @@ html {
 </div>
       <!-- Project 3 -->
       <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="images/projects/3.jpg" class="card-img-top" alt="Project 3">
-          <div class="card-body">
-            <h5 class="card-title">Project 3-Extract, load & Transform</h5>
-            <p class="card-text">Extracted Google text reviews, used Natural Language Processing, analyzed sentiment in texts, transformed sentiment scores and loaded them for Data driven decisions.</p>
-            <a href="#" class="btn btn-primary">Blog Post</a>
-            <a href="#" class="btn btn-secondary">Source Code</a>
-          </div>
-        </div>
-      </div>
+  <div class="card h-100">
+    <img src="images/projects/3.jpg" class="card-img-top" alt="NLP Sentiment Analysis">
+    <div class="card-body">
+      <h5 class="card-title">Customer Sentiment & NLP Pipeline</h5>
+      <p class="card-text">
+        <b>Problem:</b> Unstructured Google reviews provided no measurable insight into customer satisfaction trends.<br>
+        <b>Solution:</b> Built an <b>ETL pipeline</b> using Python to scrape reviews and perform <b>Natural Language Processing</b>.<br>
+        <b>Impact:</b> Transformed 1,000+ text reviews into sentiment scores, allowing the business to identify three specific service bottlenecks.
+      </p>
+      <a href="#" class="btn btn-primary">Blog Post</a>
+      <a href="#" class="btn btn-secondary">Source Code</a>
+    </div>
+  </div>
+</div>
     </div>
 
   </div>
@@ -231,40 +236,37 @@ html {
 
 
 <!-- Skills Section -->
-<section id="skills" class="skills-section bg-white" id="skills">
+<section id="skills" class="skills-section bg-white">
   <div class="container">
-    <h2 class="text-center">Skills</h2>
-    <div class="row">
-      <!-- Skill 1 -->
-      <div class="row text-center">
-  <div class="card mb-4">
-    <img src="icons/python-icon.png" class="card-img-top" alt="Python">
-    <div class="card-body">
-      <h5 class="card-title">Python for Data Science</h5>
-      <p class="card-text">Automating data workflows using <b>Pandas</b> and <b>NumPy</b>. Experienced in exploratory data analysis (EDA) and building predictive models with <b>Scikit-Learn</b>.</p>
-    </div>
-  </div>
-</div>
-
-<div class="row text-center">
-  <div class="card mb-4">
-    <img src="icons/sql-icon.png" class="card-img-top" alt="SQL">
-    <div class="card-body">
-      <h5 class="card-title">Advanced SQL</h5>
-      <p class="card-text">Expertise in complex data extraction using <b>Joins, CTEs, and Window Functions</b> to transform raw database records into business-ready datasets.</p>
-    </div>
-  </div>
-</div>
-
-<div class="row text-center">
-  <div class="card mb-4">
-    <img src="icons/viz-icon.png" class="card-img-top" alt="Visualization">
-    <div class="card-body">
-      <h5 class="card-title">Business Intelligence</h5>
-      <p class="card-text">Creating interactive, stakeholder-facing dashboards in <b>Power BI</b> and <b>Tableau</b> that translate metrics into clear, actionable stories.</p>
-    </div>
-  </div>
-</div>
+    <h2 class="text-center">Technical Skills</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="icons/python-icon.png" class="card-img-top" alt="Python">
+          <div class="card-body">
+            <h5 class="card-title">Python for Data Science</h5>
+            <p class="card-text">Automating data workflows using <b>Pandas</b> and <b>NumPy</b>. Experienced in EDA and building predictive models with <b>Scikit-Learn</b>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="icons/sql-icon.png" class="card-img-top" alt="SQL">
+          <div class="card-body">
+            <h5 class="card-title">Advanced SQL</h5>
+            <p class="card-text">Expertise in complex data extraction using <b>Joins, CTEs, and Window Functions</b> to build business-ready datasets.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="icons/viz-icon.png" class="card-img-top" alt="Visualization">
+          <div class="card-body">
+            <h5 class="card-title">Business Intelligence</h5>
+            <p class="card-text">Creating interactive dashboards in <b>Power BI</b> and <b>Tableau</b> that translate metrics into actionable stories.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
