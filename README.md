@@ -1,4 +1,4 @@
-# Data Analytics Portfolio | Simeon Ochanda
+# Data Science Portfolio | Simeon Ochanda
 
 Welcome to my portfolio! I am a **Certified Business Data Analyst** specializing in transforming raw data into strategic business insights. This repository contains the source code for my portfolio website and a collection of data projects focusing on SQL, Python, and Power BI.
 
@@ -25,7 +25,7 @@ Welcome to my portfolio! I am a **Certified Business Data Analyst** specializing
 ## 🛠️ Technical Stack
 * **Languages:** SQL (PostgreSQL, MySQL), Python (Data Science Stack), R
 * **Visualization:** Power BI, Tableau, Matplotlib
-* **Certifications:** World Bank Group Data Academy, Google Data Analytics
+* **Certifications:** World Bank Group Data Academy, Google Data Analytics, Professional Data Scientist - Datacamp
 
 ## 📬 Contact & Connect
 * **LinkedIn:** [linkedin.com/in/simeonochanda/](https://www.linkedin.com/in/simeonochanda/)
